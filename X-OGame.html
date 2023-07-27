@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="X-OGame.css">
+    <title>❌-⭕ Game</title>
+</head>
+<body>  
+
+    <!-- This is HTML Desing shows Score of ❌ -->
+    <div class="point">
+        <h2 id="winx">❌=0</h2>
+        <div class="img1" id="xwin"></div>
+    </div>
+
+    <header>
+        <h1 id="text">❌</h1>
+        <!-- HTML For ❌-⭕ Board -->
+        <div class="container">
+            <!-- 9 Box HTML Were ❌-⭕ are Placed -->
+            <ul type="none" id="top">
+                <li onclick="Click('b1')" id="b1"></li>
+                <li onclick="Click('b2')" id="b2"></li>
+                <li onclick="Click('b3')" id="b3"></li></ul>
+            <ul type="none" id="middle">
+                <li onclick="Click('b4')" id="b4"></li>
+                <li onclick="Click('b5')" id="b5"></li>
+                <li onclick="Click('b6')" id="b6"></li></ul>
+            <ul type="none" id="last">
+                <li onclick="Click('b7')" id="b7"></li>
+                <li onclick="Click('b8')" id="b8"></li>
+                <li onclick="Click('b9')" id="b9"></li>
+            </ul>
+            <!-- 9 Box HTML are Ended -->
+        </div>
+        <button class="btn" id="bt" onclick="restart()">Restart</button>
+        <!-- Board HTML Finish. -->
+    </header>
+
+    <!-- This is HTML Desing shows Score of ⭕ -->
+    <div class="point">
+        <h2 id="wino">⭕=0</h2>
+        <div class="img1" id="owin"></div>
+    </div>
+    
+    <!-- JAVA Script and all logic -->
+    <script src="X-OGame.js"></script>
+    <!-- Java script are finished -->
+</body>
+</html>
